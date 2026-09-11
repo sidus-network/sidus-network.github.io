@@ -71,3 +71,11 @@
 - 미국 COPPA: https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa
 - Google Play Families: https://support.google.com/googleplay/android-developer/answer/9893335?hl=en
 - Apple Kids Category: https://developer.apple.com/app-store/review/guidelines/#kids-category
+
+## 언어별 페이지 분리
+
+한국어는 기존 privacy-policy.html / support.html 주소를 유지한다.
+영어는 privacy-policy-en.html / support-en.html로 분리하고 상호 이동 링크를 제공한다.
+초안 배너를 제거하고 최종 수정일을 표시한다. 현재 자동 만료가 없다는 사실과
+90일 자동 삭제 도입 예정 상태를 명시했다. 운영 적용 전에는 시행 중이라고 쓰지 않는다.
+위의 초안 표시 유지 및 한·영 통합 구성 설명은 이전 공개 상태의 기록이다.

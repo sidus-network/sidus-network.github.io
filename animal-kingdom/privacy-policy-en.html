@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Animal Kingdom Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f3efe5;
+      --panel: #fffaf0;
+      --text: #1f1b16;
+      --muted: #655b50;
+      --line: #d8ccb9;
+      --accent: #b45a2a;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: linear-gradient(180deg, #f7f2e8 0%, var(--bg) 100%);
+      color: var(--text);
+    }
+
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 48px 20px 72px;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 28px 24px;
+      box-shadow: 0 10px 28px rgba(31, 27, 22, 0.08);
+    }
+
+    h1, h2 {
+      margin: 0 0 16px;
+      line-height: 1.15;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      letter-spacing: -0.04em;
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      margin-top: 28px;
+    }
+
+    p, li {
+      font-size: 1rem;
+      line-height: 1.7;
+      color: var(--muted);
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 12px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    .meta {
+      margin-top: -4px;
+      margin-bottom: 20px;
+      font-size: 0.95rem;
+    }
+  nav { margin: 20px 0; } section[lang] { margin-top: 36px; } code { overflow-wrap: anywhere; }
+  </style>
+</head>
+<body><main><article class="panel"><div class="eyebrow">Animal Kingdom · Privacy</div>
+<h1>Animal Kingdom Privacy Policy</h1><p class="meta">Last updated: September 11, 2026</p>
+<nav><a href="privacy-policy.html" lang="ko">한국어</a> · <a href="support-en.html">Support</a></nav>
+<section id="en" lang="en" aria-labelledby="en-title">
+<h2 id="en-title">1. Scope</h2>
+<p>This policy describes data handling in <strong>Animal Kingdom (동물왕국)</strong>. No account or personal profile is required to play. If you contact support, we receive your email address and the information you send.</p>
+<h2>2. Data on your device</h2>
+<p>Progress, unfinished puzzle placements, daily puzzle records, key and hint balances, and language, audio, haptic and reminder settings are stored on your device. The game does not provide account-based cloud saves or cross-device synchronization.</p>
+<h2>3. Gameplay records</h2>
+<p>To improve difficulty and controls, the game sends a random participant code, puzzle and session identifiers, app build, puzzle information, actions such as selection, placement, removal, hints and resets, their timing, elapsed time and completion or exit outcomes. The participant code is stored locally and also sent with records, allowing records from the same installation to be linked without collecting your name.</p>
+<p>The collector adds a receipt timestamp and connection country. The game does not request precise location access. Failed uploads may be queued locally and retried. Development or verification builds explicitly configured to disable gameplay collection do not send these records.</p>
+<p>Records travel over HTTPS to a Cloudflare Workers collector and are stored in Cloudflare Workers KV. The current first-party analytics implementation does not use Firebase Analytics. Infrastructure providers may process IP addresses and other connection information needed to handle network traffic.</p>
+<h2>4. Advertising</h2>
+<p>The game includes Google AdMob interstitial and optional rewarded advertisements. The Google Mobile Ads SDK may process IP addresses and inferred approximate location, ad views and clicks, app interactions, diagnostic and performance information, and device or app-related identifiers for advertising, measurement and fraud prevention. The applicable data depends on platform, SDK version, permissions and configuration.</p>
+<p>This processing is separate from our gameplay collector. A build using test ads is not a guarantee that the advertising SDK processes no data. See <a href="https://policies.google.com/privacy">Google’s Privacy Policy</a>.</p>
+<h2>5. Reminders and haptics</h2>
+<p>Daily puzzle reminders are scheduled locally after you enable them and grant the required device permission. The current implementation does not obtain remote push tokens or register with a remote push service. Disabling reminders cancels their schedule. Haptics use device functionality; vibration events are not separately uploaded as personal information.</p>
+<h2>6. Providers and processing locations</h2>
+<p>We use Cloudflare for gameplay-record transport and storage, and Google AdMob for advertising. These providers may process data outside your country through their infrastructure. Support correspondence is handled through an email provider. See <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare’s Privacy Policy</a> and Google’s policy for provider practices.</p>
+<h2>7. Retention and deletion</h2>
+<p>Our raw gameplay records currently have no automatic expiry. You can request deletion using the contact details below. We plan to introduce automatic deletion 90 days after server receipt and will update this policy when it is in place. Advertising-provider retention follows that provider’s policies. Support correspondence is retained as needed to handle the request and follow-up.</p>
+<p>For access or deletion of our gameplay records, email the participant code shown at the bottom of the app’s Settings screen and your request to <a href="mailto:sidus.network+support@gmail.com">sidus.network+support@gmail.com</a>. Do not send passwords or identity documents. We use the code to locate relevant records before processing the request.</p>
+<p><strong>Settings → Reset progress</strong> resets gameplay progress; it does not delete server records, all settings or the participant code. Operating-system app-data deletion or app removal can remove local data; restoring an operating-system backup may restore some data. Uninstalling alone does not delete server records.</p>
+<h2>8. Intended audience and guardian requests</h2>
+<p>This release is intended for teenagers and is not aimed at younger children. The minimum age and country-specific eligibility conditions will be finalized and published before launch.</p>
+<p>The game has no personal-profile form asking for names or birth dates. Parents or guardians can contact us about a child’s data or request deletion using the contact details above.</p>
+<h2>9. Updates and contact</h2>
+<p>When data practices change, we update this page and its revision or effective date. Privacy and game support: <a href="mailto:sidus.network+support@gmail.com">sidus.network+support@gmail.com</a>.</p>
+</section></article></main></body></html>
